@@ -1,0 +1,36 @@
+begin
+    prog = myprogram
+    button = KEY_PLAY
+    config = p
+end
+
+begin
+  prog = myprogram
+  button = KEY_VOLUMEUP
+  config = +
+end
+
+begin
+  prog = myprogram
+  button = KEY_VOLUMEDOWN
+  config = -
+end
+
+begin
+  prog = myprogram
+  button = KEY_VIDEO_NEXT
+  config = \x1B[A
+end
+
+begin
+  prog = myprogram
+  button = KEY_VIDEO_PREV
+  config = \x1B[B
+end
+
+begin
+  prog = myprogram
+  button = KEY_MENU
+  config = q
+end
+
